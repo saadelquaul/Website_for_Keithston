@@ -284,9 +284,12 @@ text-align: center;
     font-weight: 600;
     line-height: 29.05px;
     text-align: center;
-    width: 8.25rem;
     height: 1.0625rem ;
     border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 .exploreMore {
@@ -358,11 +361,18 @@ height: 2.5rem;
     width: 100%;
     height: 28.375rem;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 12.5rem;
     
+}
+.aboutUs div {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
 }
 
 
@@ -393,11 +403,10 @@ height: 2.5rem;
     width: 12.1875rem ;
     height: 3.9375rem;
     padding: 1.4375rem 2.1875rem;
+    margin-top: 20px;
     border-radius: .625rem 0px 0px .625rem;
-    -webkit-border-radius: .625rem 0px 0px .625rem;
-    -moz-border-radius: .625rem 0px 0px .625rem;
-    -ms-border-radius: .625rem 0px 0px .625rem;
-    -o-border-radius: .625rem 0px 0px .625rem;
+   
+    
 }
 .aboutUs button a {
     width: 7.8125rem;
@@ -408,14 +417,11 @@ height: 2.5rem;
     line-height: 1.815625rem;
     text-align: left;
     color: #F5F5F5;
-
-}
-/* .ourTreats {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
+
+}
 
 .ourTreats h1{
     height: 2.5rem;
@@ -458,6 +464,20 @@ height: 2.5rem;
     justify-content: space-around;
 }
 
+.footerContainer {
+    width: 100%;
+    height:  39.5625rem;
+    background-color: #933C24;
+    background-image: url('imgs/footer_background/background.png');
+    margin-top: 8.125rem;
+}
+.socialInfo {
+    padding: 50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 1px solid #E9BD8D33;
+}
 .socialMedia {
     width: 24.5625rem;
     height: 2.6256rem;
@@ -475,8 +495,89 @@ height: 2.5rem;
     line-height: 1.8156rem;
     text-align: left;
     color: #E9BD8D;
+}
+.socialIcons i {
+    color: #E9BD8C;
+}
 
+.socialInfo img {
+    width: 114px;
+    height: 116.96px;
 
 
 }
 
+.addressInfo address {
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+color: #f5f5f5;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+.footer h2{
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.7231rem;
+    text-align: left;
+    color: #E9BD8D;
+    padding-bottom: 1.25rem;
+
+}
+
+.explore a {
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+color: #f5f5f5;
+
+}
+
+.recentNews div {
+    display: flex;
+    
+}
+.recentNews div div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.newsDate {
+    width: 7.0625rem;
+    height: .8125rem;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    text-align: left;
+    color: #E9BD8C;
+    margin-left: 1.25rem;
+}
+
+.treatName {
+    width: 12.3125rem;
+    height: 1.0625rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    text-align: left;
+    color: #F5F5F5;
+    margin-left: 1.25rem;
+    margin-top: .8125rem;
+
+}
+.recentNews div:first-of-type{
+    margin-bottom: 20px;
+}

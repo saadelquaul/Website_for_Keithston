@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -22,9 +22,9 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Services</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
                 </ul>
 
             </nav>
@@ -37,7 +37,7 @@
          </div>
          <div class="homeDiv3">
             <p>
-                <a href="">Shop Now</a><span><a href="#">Learn More</a></span>
+                <a href="#shop">Shop Now</a><span><a href="#">Learn More</a></span>
             </p>
             
          </div>
@@ -184,12 +184,12 @@
         </section>
 
         <section>
-            <div class="aboutUs">
-            
-                <h2>About US</h2>
-                <p>Welcome to our bakery! We’re passionate about crafting delicious treats made from the finest ingredients. From freshly baked bread to mouthwatering pastries and cakes, every item is made with love and care.</p>
-                <button><a href="#">Read More</a></button>
-            
+            <div id="aboutUs" class="aboutUs">
+                <div>
+                    <h2>About US</h2>
+                    <p>Welcome to our bakery! We’re passionate about crafting delicious treats made from the finest ingredients. From freshly baked bread to mouthwatering pastries and cakes, every item is made with love and care.</p>
+                    <button><a href="#">Read More</a></button>
+                </div>
             </div>
 
         </section>
@@ -227,10 +227,73 @@
         </section>
     </main>
 
-
-
     <footer>
+        <div class="footerContainer">
+            <div class="socialInfo">
+                <a href="#"><img src="imgs/Keihtston_logo.png" alt="Keihtston_logo"></a>
+                <div class="socialMedia">
+                    <p>Follow US</p>
+                    <div class="socialIcons">
+                        <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href="#"><i  class="fa-brands fa-pinterest fa-xl"></i></a>
+                        <a href="#"><i  class="fa-brands fa-whatsapp fa-xl"></i></a>
+                        <a href="#"><i  class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="addressInfo">
+                    <address>
+                        <h2>
+                            About US    
+                        </h2>
+                                <a class="number" href="tel:+45678912301">(456) 789-12301</a><br>
+                             <a class="email" href="mailto:info@modrino.co.uk">info@modrino.co.uk</a><br>
+                            South 13th street <br>
+                             New york America
+                    </address>
+                </div>
+                <div class="explore">
+                    <h2>Explore</h2>
+                    <a href="#">Home</a> <br>
+                    <a href="#aboutUs">About Us</a> <br>
+                    <a href="#">Conatct US</a> <br>
+                    <a href="#">Services</a>
 
+                </div>
+
+                <div class="recentNews">
+                    <h2>Recent News</h2>
+                    <div>
+                        <img src="imgs/recent_news/puff_pastry_bliss.png" alt="puff pastry bliss">
+                       <div>
+                            <p class="newsDate">
+                                    <time datetime="2024-06-14">June 14,2024</time>
+                            </p>
+                            <p class="treatName">
+                                    Puff pastry bliss
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="imgs/recent_news/puff_pastry_bliss2.png" alt="puff pastry bliss">
+                        <div>
+                        <p class="newsDate">
+                            <time datetime="2024-06-14">June 14,2024</time>
+                        </p>
+                        <p class="treatName">
+                            Puff pastry bliss
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+
+                </div>
+            </div>
+        
+
+        </div>
     </footer>
     
 </body>
