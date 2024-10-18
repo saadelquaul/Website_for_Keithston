@@ -126,7 +126,6 @@ a:hover{
  
 }
 .topProducts > h1 {
-    width: 24.1875rem;
     height: 6.5rem;
     font-family: "Sansita Swashed", system-ui;
     font-weight: 600;
@@ -351,5 +350,133 @@ height: 2.5rem;
     width: 22.5rem;
     height: 21.875rem;
     border-radius: 8px;    
+}
+
+.aboutUs {
+    background-color: #b37024;
+    background-image: url('imgs/about_us/about_us_background.png');
+    width: 100%;
+    height: 28.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12.5rem;
+    
+}
+
+
+.aboutUs h2 {
+    /* width: 11.8125rem; */
+    height: 2rem;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    text-align: left;
+    padding-top: 5rem;
+    color: #F5F5F5;
+}
+.aboutUs p {
+    width: 21.4375rem;
+    height: 6.5rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.815625rem;
+    text-align: center;
+    color: #B9B9B9;
+    
+}
+.aboutUs button {
+    background-color: #933C24;
+    width: 12.1875rem ;
+    height: 3.9375rem;
+    padding: 1.4375rem 2.1875rem;
+    border-radius: .625rem 0px 0px .625rem;
+    -webkit-border-radius: .625rem 0px 0px .625rem;
+    -moz-border-radius: .625rem 0px 0px .625rem;
+    -ms-border-radius: .625rem 0px 0px .625rem;
+    -o-border-radius: .625rem 0px 0px .625rem;
+}
+.aboutUs button a {
+    width: 7.8125rem;
+    height: 1.0625rem ;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.815625rem;
+    text-align: left;
+    color: #F5F5F5;
+
+}
+/* .ourTreats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.ourTreats h1{
+    height: 2.5rem;
+    font-family: "Sansita Swashed",system-ui;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    text-align: center;
+    margin: 6.25rem 0;
+ }
+    
+.ourTreats img {
+        width: 22.5rem;
+        height: 22.25rem;
+        border-radius: .5rem ;
+}
+.ourTreats p {
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4206rem;
+    text-align: left;
+
+}
+
+.treats {
+    
+    height: 22.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.25rem 1.25rem;
+    margin: 3.125rem 0;
+
+}
+
+.treatInfo {
+    margin-top: .625rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMedia {
+    width: 24.5625rem;
+    height: 2.6256rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: start;
+}
+
+.socialMedia p {
+    width: 6.8125rem;
+    height: 1.0625rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.8156rem;
+    text-align: left;
+    color: #E9BD8D;
+
+
+
 }
 
