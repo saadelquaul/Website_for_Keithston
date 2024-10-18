@@ -289,7 +289,67 @@ text-align: center;
     height: 1.0625rem ;
     border-color: black;
     
-   
+}
+.exploreMore {
+    height: 62.9375rem;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-top: 8.125rem;
+}
+.exploreMore h1 {
+    font-family: "Sansita Swashed", system-ui ;
+font-size: 4rem;
+font-weight: 600;
+line-height: 4.8rem;
+text-align: center;
+width: 27.9375rem;
+height: 2.5rem;
+
 }
 
+.exploreMore div.categories {
+    width: 70rem;
+    height: 1.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.categoriesNames {
+    width: 43.625rem;
+    height: 1.9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #D9D9D9;
+    
+     
+}
+.categoriesNames div a{
+    width: 4.5625rem;
+    height: 1.0625rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    text-align: left;
+    color: #5D5D5D;
+}
+
+.cakes {
+    display: grid;
+    grid-template-areas:
+     "p1 p2 p3" "p4 p5 p6" 
+    ;
+    gap: 1.25rem 1.25rem;
+} 
+
+.cakes div{
+    width: 22.5rem;
+    height: 21.875rem;
+    border-radius: 8px;    
+}
 
