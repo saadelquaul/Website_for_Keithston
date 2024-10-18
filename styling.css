@@ -1,0 +1,244 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home {
+    
+    display: flex;
+    position: relative;
+
+    
+    
+    
+}
+#home .background{
+    background-color:#b37024;
+    background-image: url('imgs/Home_Background.png');
+    width: 100%;
+    height: 50.8125rem;
+
+}
+
+#home .navbar {
+display: flex;
+width: 56%;
+justify-content: space-between;
+align-items:center;
+position: absolute;
+
+}
+
+.navbar img {
+    width: 100px;
+    margin-top: 2.8125rem;
+    margin-left: 6.5625rem; 
+
+    
+}
+ a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline 2px red;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar ul li {
+    display: flex;
+    margin: 0 25px;
+    list-style: none;
+    font-size: medium;
+    font-weight: 700;
+    
+}
+
+.homeDiv2 {
+    position: absolute;
+    top: 19.875rem;
+    left: 5rem;  
+
+    
+}
+.homeDiv2 h4{
+    
+    color: #E9BD8C;
+}
+
+.homeDiv2 h1{
+    width:26rem;
+    height: 9.25rem;
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 400;
+    font-size: 4.625rem;
+    color: white;
+}
+
+.homeDiv3 {
+    position: absolute;
+    top: 35.4375rem;
+    left: 5rem;
+}
+
+.homeDiv3 > p > a {
+    width: 12.125rem;
+    padding: 1.5rem 2.375rem ;
+    border: 3px solid black;
+    background-color: #933C24;
+    border-radius: 0.5rem;
+    font-size: large;
+    
+}
+.homeDiv3 > p > span > a  {
+    color: #E9BD8C;
+    font-size: larger;    
+    padding-left: 1.25rem;
+
+}
+
+.products {
+    display: grid;
+    grid-template-areas: 
+    "topProducts topProducts topProducts"
+    "product1 product2 product3"
+    "product4 product5 product6";
+    gap: 15px 15px;
+    justify-content: center;
+    
+}
+.topProducts {
+    display: flex;
+ grid-area: topProducts;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.topProducts > h1 {
+    width: 24.1875rem;
+    height: 6.5rem;
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 600;
+    font-size: 4rem;
+    margin: 3.5rem 0;
+    text-align: center;
+}
+.productInfo {
+    height: 25.6875rem;
+    width: 22.5rem ;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.productInfo p {    
+    color: white;
+} 
+.productInfo button {
+    border: black;
+    background-color: #933C24;
+    width: 4.4375rem;
+    height: 3.0625rem;
+    border-radius: 0.25rem;
+    padding: 1rem 0.75rem;
+    font-size: medium;
+    
+}
+.product1 {
+     grid-area: product1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     width: 22.5rem;
+     height: 25.6875rem;
+     border-radius: 0.5rem ;
+     gap: 5px 5px;
+}
+
+
+.product2 {
+    grid-area: product2;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+width: 22.5rem;
+height: 25.6875rem;
+border-radius: 0.5rem ;
+}
+
+.product3 {
+    grid-area: product3 ;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+width: 22.5rem;
+height: 25.6875rem;
+border-radius: 0.5rem ;
+}
+
+.product4 {
+    grid-area: product4;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+width: 22.5rem;
+height: 25.6875rem;
+border-radius: 0.5rem ;
+}
+
+.product5 {
+    grid-area: product5;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+width: 22.5rem;
+height: 25.6875rem;
+border-radius: 0.5rem ;
+}
+
+.product6 {
+    grid-area:product6;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+width: 22.5rem;
+height: 25.6875rem;
+border-radius: 0.5rem ;
+}
+
+.productPrix-info {
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+
+}
+.productPrix-info i {
+    color: white;
+}
+
+.productNom {
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+}
+.firstOrder {
+    background-image: url('imgs/first_order/first_order_pic.png');
+}
+
